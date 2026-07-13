@@ -47,8 +47,49 @@
         <title>Brendan Bryan | Creative Front-End Developer</title>
     </head>
     <body>
+        <!--Loading Screen-->
+        <div class="loader">
+            <h1 class="loading-text">Loading<span class="dots"></span></h1>
+            <svg viewBox="0 0 100 100" class="bolt">
+                <path
+                    d="M60 0
+       L100 0
+       L55 40
+       L95 35
+       L0 100
+       L50 51
+       L20 55
+       Z"
+                    class="bolt-path" />
+            </svg>
+        </div>
+        <!-- Mobile Navbar -->
+        <div class="mobile-navbar">
+            <nav class="mobile-nav liquid-glass">
+                <a href="#home" title="Home"><i class="fa-solid fa-house"></i></a>
+                <a href="#skills" title="Skills"><i class="fa-solid fa-chart-simple"></i></a>
+                <a href="#projects" title="Projects"><i class="fa-solid fa-briefcase"></i></a>
+                <a href="#about" title="About"><i class="fa-solid fa-user"></i></a>
+                <a href="#contact" title="Contact"><i class="fa-solid fa-envelope"></i></a>
+            </nav>
+        </div>
+        <!-- Desktop Navbar -->
+        <div class="desktop-navbar">
+            <div class="menu-icon">
+                <div class="stick one"></div>
+                <div class="stick two"></div>
+                <div class="stick three"></div>
+            </div>
+            <nav class="liquid-glass">
+                <a href="#home" title="Home"><i class="fa-solid fa-house"></i></a>
+                <a href="#skills" title="Skills"><i class="fa-solid fa-chart-simple"></i></a>
+                <a href="#projects" title="Projects"><i class="fa-solid fa-briefcase"></i></a>
+                <a href="#about" title="About"><i class="fa-solid fa-user"></i></a>
+                <a href="#contact" title="Contact"><i class="fa-solid fa-envelope"></i></a>
+            </nav>
+        </div>
         <!--Hero Section-->
-        <section class="hero">
+        <section class="hero" id="home">
             <img alt="" class="cloud fake" />
             <img alt="" class="cloud fake" />
             <img class="cloud" src="./assets/clouds/cloud3.png" alt="another cloud" />
@@ -90,7 +131,7 @@
             </div>
         </section>
         <!--Resume Section-->
-        <section class="resume">
+        <section class="resume" id="skills">
             <img class="cloud" src="./assets/clouds/cloud4.png" alt="another cloud" />
             <img class="cloud" src="./assets/clouds/cloud2.png" alt="another cloud" />
             <h1>My Skills</h1>
@@ -271,7 +312,7 @@
             <a class="btn-primary mb3" href="./assets/brendansresume.pdf" download class="btn-primary"> Download Resume </a>
         </section>
         <!--Projects Section-->
-        <section>
+        <section id="projects">
             <h1>Projects</h1>
             <p>Hold Shift + Use mouse wheel or Scroll with your finger to traverse Projects</p>
             <div class="container project">
@@ -382,7 +423,7 @@
             </div>
         </section>
         <!--About Section-->
-        <section class="about">
+        <section class="about" id="about">
             <h1>About Me</h1>
             <h2>// • INFJ • Sagitarius • OKC</h2>
             <div class="about-container mt3">
@@ -399,14 +440,16 @@
                     As a photographer, I developed my visual artistic abilities that translate into my web development work. You can view my work below or by navigating to my Instagram. <br /><br />
 
                     My other interests include watching the <b>Oklahoma City Thunder</b>, skateboarding, and working out. I also enjoy spending time outdoors in nature, exploring new places. Much of
-                    my photography is centered around animals, plants, and landscapes.
-                    <br /><br />
+                    my photography is centered around animals, plants, and landscapes. <br /><br />
 
                     I am a dark mode addict and recovering perfectionist... light mode is not allowed here <br /><br />
                 </p>
             </div>
             <h1 class="art">
-                Vision is the <em>Art</em> <br/> of Seeing <br/> what is Invisible <br/> to others
+                Vision is the <em>Art</em> <br />
+                of Seeing <br />
+                what is Invisible <br />
+                to others
             </h1>
             <!--Test-->
             <div class="container photography">
@@ -419,7 +462,6 @@
                         <img class="photography" src="./assets/photography/photo8.jpg" alt="Photography" />
                         <img class="photography" src="./assets/photography/photo9.jpg" alt="Photography" />
                         <img class="photography" src="./assets/photography/photo10.jpg" alt="Photography" />
-                        <img class="photography" src="./assets/photography/photo13.jpeg" alt="Photography" />
                         <img class="photography" src="./assets/photography/photo14.jpg" alt="Photography" />
                         <img class="photography" src="./assets/photography/photo15.jpg" alt="Photography" />
                         <img class="photography" src="./assets/photography/photo16.jpg" alt="Photography" />
@@ -436,13 +478,13 @@
             </div>
         </section>
         <!--Contact Section-->
-        <section class="contact">
+        <section class="contact" id="contact">
             <img class="cloud" src="./assets/clouds/cloud2.png" alt="another cloud" />
             <img class="cloud" src="./assets/clouds/cloud.png" alt="another cloud" />
             <h1>Contact</h1>
             <h2>// @Bee4Brendan</h2>
             <p>You can reach me by email or contact me on any of my socials below</p>
-            <a href="https://www.bee4brendan.com" target="_blank"><img class="logo" src="./assets/big-logo.svg" aria-label="Bee Logo" alt="Bee Logo" /></a>
+            <a href="https://www.bee4brendan.com" target="_blank"><img class="logo" src="./assets/big-logo.png" aria-label="Bee Logo" alt="Bee Logo" /></a>
             <a class="btn-primary my3" href="mailto:bbryan1294@gmail.com">Send Email</a>
         </section>
         <footer>
@@ -465,5 +507,8 @@
             <hr class="mt3" />
             <p class="flex-center copyright">© 2026 Brendan Bryan</p>
         </footer>
+
+        <!-- Scripts -->
+        <script src="./script.js"></script>
     </body>
 </html>
