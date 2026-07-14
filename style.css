@@ -137,10 +137,6 @@ nav {
                 padding-right: 12px;
             }
 
-            &.fa-envelope {
-                
-            }
-
             &:hover {
                 color: rgba(255, 255, 255, 0.842);
                 background: rgba(255, 255, 255, 0.15);
