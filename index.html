@@ -64,28 +64,52 @@
             </svg>
         </div>
         <!-- Mobile Navbar -->
-        <div class="mobile-navbar">
-            <nav class="mobile-nav liquid-glass">
-                <a href="#home" title="Home"><i class="fa-solid fa-house"></i></a>
-                <a href="#skills" title="Skills"><i class="fa-solid fa-chart-simple"></i></a>
-                <a href="#projects" title="Projects"><i class="fa-solid fa-briefcase"></i></a>
-                <a href="#about" title="About"><i class="fa-solid fa-user"></i></a>
-                <a href="#contact" title="Contact"><i class="fa-solid fa-envelope"></i></a>
+        <div>
+            <nav class="mobile-navbar">
+                <ul class="mobile-nav liquid-glass">
+                    <li>
+                        <a href="#home" title="Home" aria-label="Home Section"><i class="fa-solid fa-house"></i></a>
+                    </li>
+                    <li>
+                        <a href="#skills" title="Skills" aria-label="Skills Section"><i class="fa-solid fa-chart-simple"></i></a>
+                    </li>
+                    <li>
+                        <a href="#projects" title="Projects" aria-label="Project Section"><i class="fa-solid fa-briefcase"></i></a>
+                    </li>
+                    <li>
+                        <a href="#about" title="About" aria-label="About Section"><i class="fa-solid fa-user"></i></a>
+                    </li>
+                    <li>
+                        <a href="#contact" title="Contact" aria-label="Contact Section"><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+                </ul>
             </nav>
         </div>
         <!-- Desktop Navbar -->
         <div class="desktop-navbar">
-            <div class="menu-icon">
+            <div class="menu-icon" aria-label="Toggle navigation menu">
                 <div class="stick one"></div>
                 <div class="stick two"></div>
                 <div class="stick three"></div>
             </div>
             <nav class="liquid-glass">
-                <a href="#home" title="Home"><i class="fa-solid fa-house"></i></a>
-                <a href="#skills" title="Skills"><i class="fa-solid fa-chart-simple"></i></a>
-                <a href="#projects" title="Projects"><i class="fa-solid fa-briefcase"></i></a>
-                <a href="#about" title="About"><i class="fa-solid fa-user"></i></a>
-                <a href="#contact" title="Contact"><i class="fa-solid fa-envelope"></i></a>
+                <ul>
+                    <li>
+                        <a href="#home" title="Home" aria-label="Home Section"><i class="fa-solid fa-house"></i></a>
+                    </li>
+                    <li>
+                        <a href="#skills" title="Skills" aria-label="Skills Section"><i class="fa-solid fa-chart-simple"></i></a>
+                    </li>
+                    <li>
+                        <a href="#projects" title="Projects" aria-label="Project Section"><i class="fa-solid fa-briefcase"></i></a>
+                    </li>
+                    <li>
+                        <a href="#about" title="About" aria-label="About Section"><i class="fa-solid fa-user"></i></a>
+                    </li>
+                    <li>
+                        <a href="#contact" title="Contact" aria-label="Contact Section"><i class="fa-solid fa-envelope"></i></a>
+                    </li>
+                </ul>
             </nav>
         </div>
         <!--Hero Section-->
@@ -125,7 +149,7 @@
                 </ul>
             </div>
             <div class="flex-center header">
-                <img class="profile-image" src="./assets/profile2.jpeg" alt="Profile Image" />
+                <img class="profile-image" src="./assets/profile2.jpeg" alt="Brendan in a hallway" />
                 <h1>I'm Brendan</h1>
                 <p>I weave Art into the Web</p>
             </div>
@@ -144,19 +168,19 @@
                     </div>
                     <div class="skill-bar">
                         <div class="skill-fill"></div>
-                        <p>C Sharp</p>
+                        <label>C Sharp</label>
                     </div>
                     <div class="skill-power flex-center"><p>80</p></div>
                 </div>
-                <div class="skill-item flex" style="--power: 40%">
+                <div class="skill-item flex" style="--power: 50%">
                     <div class="skill-icon flex-center">
                         <img src="./assets/web-skills/js.png" alt="" />
                     </div>
                     <div class="skill-bar">
                         <div class="skill-fill"></div>
-                        <p>JavaScript</p>
+                        <label>JavaScript</label>
                     </div>
-                    <div class="skill-power flex-center"><p>40</p></div>
+                    <div class="skill-power flex-center"><p>50</p></div>
                 </div>
                 <div class="skill-item flex" style="--power: 75%">
                     <div class="skill-icon flex-center">
@@ -164,7 +188,7 @@
                     </div>
                     <div class="skill-bar">
                         <div class="skill-fill"></div>
-                        <p>HTML5</p>
+                        <label>HTML5</label>
                     </div>
                     <div class="skill-power flex-center"><p>75</p></div>
                 </div>
@@ -174,19 +198,19 @@
                     </div>
                     <div class="skill-bar">
                         <div class="skill-fill"></div>
-                        <p>React</p>
+                        <label>React</label>
                     </div>
                     <div class="skill-power flex-center"><p>50</p></div>
                 </div>
-                <div class="skill-item flex" style="--power: 30%">
+                <div class="skill-item flex" style="--power: 40%">
                     <div class="skill-icon flex-center">
                         <img src="./assets/web-skills/ts.png" alt="" />
                     </div>
                     <div class="skill-bar">
                         <div class="skill-fill"></div>
-                        <p>TypeScript</p>
+                        <label>TypeScript</label>
                     </div>
-                    <div class="skill-power flex-center"><p>30</p></div>
+                    <div class="skill-power flex-center"><p>40</p></div>
                 </div>
                 <div class="skill-item flex" style="--power: 65%">
                     <div class="skill-icon flex-center">
@@ -194,7 +218,7 @@
                     </div>
                     <div class="skill-bar">
                         <div class="skill-fill"></div>
-                        <p>CSS3</p>
+                        <label>CSS3</label>
                     </div>
                     <div class="skill-power flex-center"><p>65</p></div>
                 </div>
@@ -207,7 +231,7 @@
                     </div>
                     <div class="skill-bar">
                         <div class="skill-fill"></div>
-                        <p>Problem Solving</p>
+                        <label>Problem Solving</label>
                     </div>
                     <div class="skill-power flex-center"><p>95</p></div>
                 </div>
@@ -217,7 +241,7 @@
                     </div>
                     <div class="skill-bar">
                         <div class="skill-fill"></div>
-                        <p>Communication</p>
+                        <label>Communication</label>
                     </div>
                     <div class="skill-power flex-center"><p>70</p></div>
                 </div>
@@ -227,7 +251,7 @@
                     </div>
                     <div class="skill-bar">
                         <div class="skill-fill"></div>
-                        <p>Creativity</p>
+                        <label>Creativity</label>
                     </div>
                     <div class="skill-power flex-center"><p>90</p></div>
                 </div>
@@ -237,7 +261,7 @@
                     </div>
                     <div class="skill-bar">
                         <div class="skill-fill"></div>
-                        <p>Attention to Detail</p>
+                        <label>Attention to Detail</label>
                     </div>
                     <div class="skill-power flex-center"><p>100</p></div>
                 </div>
@@ -247,7 +271,7 @@
                     </div>
                     <div class="skill-bar">
                         <div class="skill-fill"></div>
-                        <p>Teamwork</p>
+                        <label>Teamwork</label>
                     </div>
                     <div class="skill-power flex-center"><p>80</p></div>
                 </div>
@@ -257,7 +281,7 @@
                     </div>
                     <div class="skill-bar">
                         <div class="skill-fill"></div>
-                        <p>Adaptability</p>
+                        <label>Adaptability</label>
                     </div>
                     <div class="skill-power flex-center"><p>70</p></div>
                 </div>
@@ -319,103 +343,103 @@
                 <div class="carousel">
                     <div class="project-track">
                         <div class="card project">
-                            <img src="./assets/projects/project1.png" alt="React Logo" />
+                            <img src="./assets/projects/project1.png" alt="Bee logo drawing and design" />
                             <h3>Logo Design Progression</h3>
                             <p>
                                 This is my vector logo design that I use for my website, videos, and projects. I used Canva and Affinity to create this logo, which is a stylized 'B' that represents my
                                 name and personal brand.
                             </p>
                             <div class="buttons-container flex-center">
-                                <a href="https://www.youtube.com/watch?v=8fBTbKLdVvY" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="https://www.youtube.com/watch?v=8fBTbKLdVvY" target="_blank" aria-label="YouTube Link"><i class="fa-brands fa-youtube"></i></a>
                             </div>
                         </div>
                         <div class="card project">
-                            <img src="./assets/projects/project2.png" alt="React Logo" />
+                            <img src="./assets/projects/project2.png" alt="Bee logo design in affinity" />
                             <h3>Logo Design Hyperlapse</h3>
                             <p>
                                 A hyperlapse video of me redesigning my logo from Canva to Affinity. Also, the first time that I used Affinity. The logo has been adjusted since then. See if you can
                                 spot the difference!
                             </p>
                             <div class="buttons-container flex-center">
-                                <a href="https://youtu.be/Dsq17U_7t3c?si=nDHLrjBAqsYFYk6e" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="https://youtu.be/Dsq17U_7t3c?si=nDHLrjBAqsYFYk6e" target="_blank" aria-label="YouTube Link"><i class="fa-brands fa-youtube"></i></a>
                             </div>
                         </div>
                         <div class="card project">
-                            <img src="./assets/projects/project3.png" alt="React Logo" />
+                            <img src="./assets/projects/project3.png" alt="Pricing table" />
                             <h3>Pricing Table</h3>
                             <p>Mock of a Pricing Table to practice flexbox and design. Not a whole lot of time was spent on this. Just a quick draft to show off my CSS skills.</p>
                             <div class="buttons-container flex-center">
-                                <a href="https://www.youtube.com/watch?v=tjkxdqWEIIQ" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-                                <a href="https://github.com/Bee4Brendan/flexbox-pricing-table" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://www.youtube.com/watch?v=tjkxdqWEIIQ" target="_blank" aria-label="YouTube Link"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="https://github.com/Bee4Brendan/flexbox-pricing-table" target="_blank" aria-label="GitHub Link"><i class="fa-brands fa-github"></i></a>
                             </div>
                         </div>
                         <div class="card project">
-                            <img src="./assets/projects/project4.png" alt="React Logo" />
+                            <img src="./assets/projects/project4.png" alt="Canva hotel web design" />
                             <h3>Golden Bee Hotel Web Design</h3>
                             <p>Practice exercise for my first web design using basic design principles like hierarchy, alignment, color theory, layout, audience, typography, and user experience.</p>
                             <div class="buttons-container flex-center">
-                                <a href="https://goldenbeehotel.my.canva.site/" target="_blank" aria-label="GitHub"><i class="fa-solid fa-link"></i></a>
-                                <a href="https://www.youtube.com/watch?v=wCDXcpOzMcY" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="https://goldenbeehotel.my.canva.site/" target="_blank" aria-label="GitHub Link"><i class="fa-solid fa-link"></i></a>
+                                <a href="https://www.youtube.com/watch?v=wCDXcpOzMcY" target="_blank" aria-label="YouTube Link"><i class="fa-brands fa-youtube"></i></a>
                             </div>
                         </div>
                         <div class="card project">
-                            <img src="./assets/projects/project5.png" alt="React Logo" />
+                            <img src="./assets/projects/project5.png" alt="List of Thunder Players with info" />
                             <h3>OKC Thunder LINQ</h3>
                             <p>This is a C# .NET MAUI Demo for a cross-platform mobile application. It lists and sorts through OKC Thunder Players. MVVM, SOLID, LINQ queries.</p>
                             <div class="buttons-container flex-center">
-                                <a href="https://youtu.be/tA8sAlbE0xc?si=6BGvRpIBa9NLk9fK" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
-                                <a href="https://github.com/Bee4Brendan/ThunderLINQ-MAUI" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                                <a href="https://youtu.be/tA8sAlbE0xc?si=6BGvRpIBa9NLk9fK" target="_blank" aria-label="YouTube Link"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="https://github.com/Bee4Brendan/ThunderLINQ-MAUI" target="_blank" aria-label="GitHub Link"><i class="fa-brands fa-github"></i></a>
                             </div>
                         </div>
                         <div class="card project">
-                            <img src="./assets/projects/project6.jpg" alt="React Logo" />
+                            <img src="./assets/projects/project6.jpg" alt="Cannot Stop Game Menu" />
                             <h3>Cannot Stop</h3>
                             <p>
                                 Android Mobile Application designed to play like the Doodle Jump game. I designed the Highscores + Main section as well as implementing the logic for gyroscope and
                                 accelerometer sensors.
                             </p>
                             <div class="buttons-container flex-center">
-                                <a href="https://youtu.be/aJlRW58MZUw?t=136" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="https://youtu.be/aJlRW58MZUw?t=136" target="_blank" aria-label="YouTube Link"><i class="fa-brands fa-youtube"></i></a>
                             </div>
                         </div>
                         <div class="card project">
-                            <img src="./assets/projects/project7.jpg" alt="React Logo" />
+                            <img src="./assets/projects/project7.jpg" alt="Dungeon Crawler Game screenshot" />
                             <h3>Dungeon Crawler</h3>
                             <p>
                                 Mobile Android dungeon crawler game. For this game, I designed the inventory system, the items, and the GUI for the character. This includes frontend and implentation.
                             </p>
                             <div class="buttons-container flex-center">
-                                <a href="https://youtu.be/Mazv3WOq-7c?list=PL-HMEiZRDW4Vm1grUyyJMs4uJvPVDgihv&t=782" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="https://youtu.be/Mazv3WOq-7c?list=PL-HMEiZRDW4Vm1grUyyJMs4uJvPVDgihv&t=782" target="_blank" aria-label="YouTube Link"><i class="fa-brands fa-youtube"></i></a>
                             </div>
                         </div>
                         <div class="card project">
-                            <img src="./assets/projects/project8.jpg" alt="React Logo" />
+                            <img src="./assets/projects/project8.jpg" alt="Contacts from Contacts App" />
                             <h3>Contacts App</h3>
                             <p>
                                 This is a Contacts app created for Android. It can launch emails and deliver notifications to direct the user to UCO department websites as well as store important user
                                 information.
                             </p>
                             <div class="buttons-container flex-center">
-                                <a href="https://youtu.be/mmzWqgDsBnk" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="https://youtu.be/mmzWqgDsBnk" target="_blank" aria-label="YouTube Link"><i class="fa-brands fa-youtube"></i></a>
                             </div>
                         </div>
                         <div class="card project">
-                            <img src="./assets/projects/project9.jpg" alt="React Logo" />
+                            <img src="./assets/projects/project9.jpg" alt="GPS with marker on Oklahoma City" />
                             <h3>Weather App</h3>
                             <p>
                                 This Android Mobile Application allows the user to search for different cities to see the current weather for the area. There are also buttons to launch a map of the
                                 city!
                             </p>
                             <div class="buttons-container flex-center">
-                                <a href="https://youtu.be/K3CiABLm3As" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="https://youtu.be/K3CiABLm3As" target="_blank" aria-label="YouTube Link"><i class="fa-brands fa-youtube"></i></a>
                             </div>
                         </div>
                         <div class="card project">
-                            <img src="./assets/projects/project10.jpg" alt="React Logo" />
+                            <img src="./assets/projects/project10.jpg" alt="Baseball game project screenshot" />
                             <h3>Baseball Number Game</h3>
                             <p>This is an interesting game called Baseball, where the user is supposed to guess the numbers in the given 'Key'. Kind of like Wordle with numbers!</p>
                             <div class="buttons-container flex-center">
-                                <a href="https://youtu.be/fLsn16twFJw" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                                <a href="https://youtu.be/fLsn16twFJw" target="_blank" aria-label="YouTube Link"><i class="fa-brands fa-youtube"></i></a>
                             </div>
                         </div>
                     </div>
@@ -427,7 +451,7 @@
             <h1>About Me</h1>
             <h2>// • INFJ • Sagitarius • OKC</h2>
             <div class="about-container mt3">
-                <img class="about-image two" src="./assets/about/about2.jpeg" height="300" alt="About Me Image" />
+                <img class="about-image two" src="./assets/about/about2.jpeg" height="300" alt=" Brendan looking left" />
                 <p class="one">
                     If you didn't know already, I'm <b>Brendan</b> and I'm from <b>Oklahoma</b>. Currently, I'm embracing the possibility of mixing art and science by "weaving art into the web" as a
                     <b>Frontend Developer</b>.<br /><br />
@@ -455,24 +479,24 @@
             <div class="container photography">
                 <div class="carousel">
                     <div class="photography-track">
-                        <img class="photography" src="./assets/photography/photo3.jpg" alt="Photography" />
-                        <img class="photography" src="./assets/photography/photo4.jpg" alt="Photography" />
-                        <img class="photography" src="./assets/photography/photo6.jpg" alt="Photography" />
-                        <img class="photography" src="./assets/photography/photo7.jpg" alt="Photography" />
-                        <img class="photography" src="./assets/photography/photo8.jpg" alt="Photography" />
-                        <img class="photography" src="./assets/photography/photo9.jpg" alt="Photography" />
-                        <img class="photography" src="./assets/photography/photo10.jpg" alt="Photography" />
-                        <img class="photography" src="./assets/photography/photo14.jpg" alt="Photography" />
-                        <img class="photography" src="./assets/photography/photo15.jpg" alt="Photography" />
-                        <img class="photography" src="./assets/photography/photo16.jpg" alt="Photography" />
-                        <img class="photography" src="./assets/photography/photo17.jpg" alt="Photography" />
-                        <img class="photography" src="./assets/photography/photo18.jpeg" alt="React Logo" />
-                        <img class="photography" src="./assets/photography/photo19.jpg" alt="Photography" />
-                        <img class="photography" src="./assets/photography/photo20.jpg" alt="Photography" />
-                        <img class="photography" src="./assets/photography/photo21.jpg" alt="Photography" />
-                        <img class="photography" src="./assets/photography/photo22.jpeg" alt="Photography" />
-                        <img class="photography" src="./assets/photography/photo23.jpg" alt="Photography" />
-                        <img class="photography" src="./assets/photography/photo24.jpg" alt="Photography" />
+                        <img class="photography" src="./assets/photography/photo3.jpg" alt="palm trees in Vegas" />
+                        <img class="photography" src="./assets/photography/photo4.jpg" alt="a detailed eye" />
+                        <img class="photography" src="./assets/photography/photo6.jpg" alt="a robot" />
+                        <img class="photography" src="./assets/photography/photo7.jpg" alt="a man in a cloud of smoke" />
+                        <img class="photography" src="./assets/photography/photo8.jpg" alt="someone's shoes in a field" />
+                        <img class="photography" src="./assets/photography/photo9.jpg" alt="OKC Skyline at sunset" />
+                        <img class="photography" src="./assets/photography/photo10.jpg" alt="a golden dome in OKC" />
+                        <img class="photography" src="./assets/photography/photo14.jpg" alt="a sunflower sprouting" />
+                        <img class="photography" src="./assets/photography/photo15.jpg" alt="a woman next to Heliconia plant" />
+                        <img class="photography" src="./assets/photography/photo16.jpg" alt="decorative lights outside of the Omni hotel" />
+                        <img class="photography" src="./assets/photography/photo17.jpg" alt="woman model posing in forest" />
+                        <img class="photography" src="./assets/photography/photo18.jpeg" alt="cone flower before bloom" />
+                        <img class="photography" src="./assets/photography/photo19.jpg" alt="woman model posing next to lights" />
+                        <img class="photography" src="./assets/photography/photo20.jpg" alt="a large sunflower in bloom" />
+                        <img class="photography" src="./assets/photography/photo21.jpg" alt="water drops on leaves" />
+                        <img class="photography" src="./assets/photography/photo22.jpeg" alt="baby bird on a branch" />
+                        <img class="photography" src="./assets/photography/photo23.jpg" alt="another OKC Skyline at sunset" />
+                        <img class="photography" src="./assets/photography/photo24.jpg" alt="ripples in the water" />
                     </div>
                 </div>
             </div>
@@ -484,23 +508,23 @@
             <h1>Contact</h1>
             <h2>// @Bee4Brendan</h2>
             <p>You can reach me by email or contact me on any of my socials below</p>
-            <a href="https://www.bee4brendan.com" target="_blank"><img class="logo" src="./assets/big-logo.png" aria-label="Bee Logo" alt="Bee Logo" /></a>
+            <img class="logo" src="./assets/big-logo.png" alt="Bee Logo" />
             <a class="btn-primary my3" href="mailto:bbryan1294@gmail.com">Send Email</a>
         </section>
         <footer>
             <div class="container flex-center footer">
-                <ul class="footer">
+                <ul class="footer liquid-glass">
                     <li>
-                        <a href="https://github.com/bee4brendan" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://github.com/bee4brendan" target="_blank" aria-label="GitHub Link"><i class="fa-brands fa-github"></i></a>
                     </li>
                     <li>
-                        <a href="https://instagram.com/bee4brendan" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://instagram.com/bee4brendan" target="_blank" aria-label="Instagram Link"><i class="fa-brands fa-instagram"></i></a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/brendanb7539/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/brendanb7539/" target="_blank" aria-label="LinkedIn Link"><i class="fa-brands fa-linkedin"></i></a>
                     </li>
                     <li>
-                        <a class="youtube-icon" href="https://www.youtube.com/@Bee4Brendan/" target="_blank" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        <a class="youtube-icon" href="https://www.youtube.com/@Bee4Brendan/" target="_blank" aria-label="YouTube Link"><i class="fa-brands fa-youtube"></i></a>
                     </li>
                 </ul>
             </div>
