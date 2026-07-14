@@ -121,40 +121,24 @@ nav {
             color: white;
             margin: 5px;
             padding: 10px;
-            padding-left: 15px;
-            padding-right: 5px;
-            padding-bottom: 10px;
             border-radius: 50%;
 
-            &.fa-house {
-                padding-top: 15px;
-                padding-left: 15px;
-                padding-right: 10px;
+            &.fa-user {
+                /* padding-top: 15px;
+                padding-left: 17px; */
+                padding-left: 12px;
+                padding-right: 12px;
             }
 
             &.fa-chart-simple {
-                padding-top: 15px;
-                padding-left: 17px;
-                padding-right: 8px;
-            }
-
-            &.fa-briefcase {
-                padding-top: 15px;
-                padding-left: 17px;
-                padding-right: 10px;
+                /* padding-top: 15px;
+                padding-left: 17px; */
+                padding-left: 12px;
+                padding-right: 12px;
             }
 
             &.fa-envelope {
-                padding-left: 18px;
-                padding-right: 10px;
-                padding-top: 15px;
-                padding-bottom: 10px;
-            }
-
-            &.fa-user {
-                padding-top: 15px;
-                padding-left: 17px;
-                padding-right: 8px;
+                
             }
 
             &:hover {
@@ -452,21 +436,14 @@ ul.mobile-nav {
     gap: 10px;
 }
 
-a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    i {
-        height: 2rem;
-        width: 2rem;
-        display: flex;
-        margin: 1rem;
-        color: var(--volt);
-        transition: all 0.75s ease;
+a i {
+    font-size: 2rem;
+    margin: 1rem;
+    color: var(--volt);
+    transition: all 0.75s ease;
 
-        &:hover {
-            color: var(--sky-blue);
-        }
+    &:hover {
+        color: var(--sky-blue);
     }
 }
 
@@ -1089,7 +1066,6 @@ ul {
         height: 40px;
         bottom: 40px;
         justify-content: center;
-        align-items: center;
         z-index: 7;
     }
 
