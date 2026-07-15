@@ -316,7 +316,7 @@ b {
     color: white;
     font-family: "Stack Sans Notch", sans-serif;
     mix-blend-mode: difference;
-    font-size: 6rem;
+    font-size: 8rem;
     transform: rotate(-deg);
 }
 
@@ -337,8 +337,8 @@ h1 {
 
 h2 {
     font-family: "Stack Sans Notch", sans-serif;
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-weight: 300;
+    font-size: 3rem;
     color: rgb(255, 255, 255);
     mix-blend-mode: difference;
 }
@@ -909,6 +909,7 @@ section.contact {
 .logo {
     margin-top: 3rem;
     margin-right: 2rem;
+    margin-left: 1rem;
     padding-bottom: 2rem;
     width: 300px;
     transition: all 0.3s ease;
@@ -1108,11 +1109,15 @@ ul {
     }
 
     .hero h1 {
-        font-size: 3rem;
+        font-size: 6rem;
     }
 
     h1 {
         font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
     }
 
     .card {
@@ -1159,7 +1164,43 @@ ul {
     }
 }
 
+@media (max-width: 641px) {
+    .hero h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 555px) {
+    .hero h1 {
+        font-size: 4.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 515px) {
+    .hero h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 469px) {
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+}
+
 @media (max-width: 430px) {
+    .hero h1 {
+        font-size: 3rem;
+    }
+
     .skill-bar p {
         font-size: 14px;
     }
