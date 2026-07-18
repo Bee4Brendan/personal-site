@@ -198,7 +198,7 @@ b {
     }
 }
 
-.hero h1 {
+.home h1 {
     &:hover {
         transform: scale(1.4);
     }
@@ -269,7 +269,7 @@ b {
     }
 }
 
-.resume.cloud {
+.skills.cloud {
     --y: 300px;
 }
 
@@ -312,7 +312,7 @@ b {
     }
 }
 
-.hero h1 {
+.home h1 {
     color: white;
     font-family: "Stack Sans Notch", sans-serif;
     mix-blend-mode: difference;
@@ -320,7 +320,7 @@ b {
     transform: rotate(-deg);
 }
 
-.hero p {
+.home p {
     color: white;
     margin-top: 1rem;
     mix-blend-mode: difference;
@@ -399,7 +399,7 @@ section:nth-of-type(odd) {
     animation: gradient-animation 15s ease infinite;
 }
 
-section.hero {
+section.home {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -584,7 +584,7 @@ a i {
 
 /* =============================================================================== */
 
-.resume-grid {
+.skills-grid {
     padding: 3rem;
     display: grid;
     place-items: center;
@@ -1074,7 +1074,7 @@ ul {
         flex-direction: row;
     }
 
-    .resume-grid {
+    .skills-grid {
         margin-top: 0;
         gap: 0;
         grid-template-columns: 1fr 1fr;
@@ -1090,11 +1090,11 @@ ul {
         display: none;
     }
 
-    .hero::before {
+    .home::before {
         display: none;
     }
 
-    .hero::after {
+    .home::after {
         clip-path: polygon(
             60% 0%,
             /* wider top-left */ 100% 0%,
@@ -1108,7 +1108,7 @@ ul {
         );
     }
 
-    .hero h1 {
+    .home h1 {
         font-size: 6rem;
     }
 
@@ -1165,7 +1165,7 @@ ul {
 }
 
 @media (max-width: 641px) {
-    .hero h1 {
+    .home h1 {
         font-size: 5rem;
     }
 
@@ -1175,7 +1175,7 @@ ul {
 }
 
 @media (max-width: 555px) {
-    .hero h1 {
+    .home h1 {
         font-size: 4.5rem;
     }
 
@@ -1185,19 +1185,19 @@ ul {
 }
 
 @media (max-width: 515px) {
-    .hero h1 {
+    .home h1 {
         font-size: 4rem;
     }
 }
 
 @media (max-width: 469px) {
-    .hero h1 {
+    .home h1 {
         font-size: 3.5rem;
     }
 }
 
 @media (max-width: 430px) {
-    .hero h1 {
+    .home h1 {
         font-size: 3rem;
     }
 
