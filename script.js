@@ -17,3 +17,5 @@ menu_icon.addEventListener("click", () => {
     navbar.classList.toggle("open");
     console.log("menu-icon clicked");
 });
+
+document.querySelector(".copyright").textContent = `© ${new Date().getFullYear()} Brendan Bryan`;

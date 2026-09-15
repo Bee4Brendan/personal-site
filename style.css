@@ -811,7 +811,7 @@ a i {
 
     padding: 1rem;
 
-    animation: project-scroll 40s linear infinite;
+    animation: project-scroll 120s linear infinite;
 }
 
 .buttons-container a i {
@@ -1027,7 +1027,7 @@ ul {
 
 @keyframes project-scroll {
     from {
-        transform: translateX(50%);
+        transform: translateX(100%);
     }
 
     to {
@@ -1172,6 +1172,27 @@ ul {
 
     .desktop {
         display: none;
+    }
+
+    .project-track {
+        display: flex;
+
+        width: max-content;
+        max-width: 100vw;
+
+        padding: 1rem;
+
+        animation: project-scroll-mobile 160s linear infinite;
+    }
+
+    @keyframes project-scroll-mobile {
+        from {
+            transform: translateX(90%);
+        }
+
+        to {
+            transform: translateX(-1100%);
+        }
     }
 }
 
