@@ -1031,7 +1031,7 @@ ul {
     }
 
     to {
-        transform: translateX(-150%);
+        transform: translateX(-325%);
     }
 }
 
@@ -1191,7 +1191,7 @@ ul {
         }
 
         to {
-            transform: translateX(-1100%);
+            transform: translateX(-1000%);
         }
     }
 }
